@@ -1,0 +1,271 @@
+@charset "UTF-8";
+
+/* 메뉴 */
+#menu-item{
+    background-color: #808080;
+    color: aliceblue;
+    border-radius: 6px;
+}
+.menu > a{
+	text-decoration-line: none
+}
+#menu-username{
+    background-color: maroon;
+    color: aliceblue;
+    border-radius: 30px;
+    font-size: small;
+}
+
+/* 게시판 페이지  */
+table {
+  border: 1px #a39485 solid;
+  font-size: .9em;
+  box-shadow: 0 2px 5px rgba(0,0,0,.25);
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+thead {
+  font-weight: bold;
+  color: #fff;
+  background: #73685d;
+}
+
+td {
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  background: #fff;
+}
+
+#write_button{
+	color: #fff;
+    font-size: 16px;
+    background-color: #73685d;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+/* 회원가입 페이지 */
+.signup-wrapper{
+    width: 800px;
+    height: 400px;
+    padding: 40px;
+    box-sizing: border-box;
+    margin : auto;
+}
+
+.signup-btn{
+	color: #fff;
+    font-size: 16px;
+    background-color: #73685d;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+#signup{
+	color: #fff;
+    font-size: 16px;
+    background-color: #73685d;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+/* 로그인 페이지 */
+.login-wrapper{
+    width: 400px;
+    height: 350px;
+    padding: 40px;
+    box-sizing: border-box;
+    margin : auto;
+}
+.login-e{
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+}
+#login_button{
+	color: #fff;
+    font-size: 16px;
+    background-color: #73685d;
+    margin-top: 20px;
+}
+
+/* 게시판작성 페이지 */
+.submit-btn{
+	color: #fff;
+    font-size: 16px;
+    background-color: #73685d;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+#register{
+	color: #fff;
+    font-size: 16px;
+    background-color: #73685d;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+#reset{
+    color: #fff;
+    font-size: 16px;
+    background-color: #73685d;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+#uploadFile{
+	color: #fff;
+    font-size: 16px;
+    background-color: #73685d;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+/* 게시판확인 페이지 */
+#return_button{
+	color: #fff;
+    font-size: 16px;
+    background-color: #73685d;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+#update_button{
+	color: #fff;
+    font-size: 16px;
+    background-color: #73685d;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.read_button{
+	color: #fff;
+    font-size: 16px;
+    background-color: #73685d;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+/* 페이징 css */
+
+/* 댓글 페이지 */
+.reply{
+	float:right
+}
+.reply_button {
+	color: #fff;
+    font-size: 16px;
+    background-color: #73685d;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.reply-list {
+	width : 800px;
+}
+.reply-list > li{
+	list-style : none;
+}
+#reply-remove{
+	float:right;
+	border:none;
+	background-color:transparent;
+	font-weight: 700; 
+}
+#reply-page > li >a{
+	text-decoration-line: none;
+	margin : auto;
+	color : white;
+}
+/* 첨부파일 */
+.uploadResult > li{
+	float : left;
+	margin-left : 10px;
+	list-style : none;
+	
+}
+.get-Result > li{
+	float : left;
+	margin-left : 10px;
+	list-style : none;
+	
+}
+#upload-remove{
+	border:none;
+	background-color:transparent;
+	font-weight: 700;
+}
+.read_botton{
+	clear : both;
+}
+.modify_botton{
+	clear : both;
+}
+.bigPictureWrapper{
+	position : fixed;
+	display : none;
+	left:0px;
+	justify-content : center;
+	align-items : center;
+	top : 0;
+	width:100%;
+	height:100%;
+	background-color : gray;
+	z-index:1100;
+	background:rgba(0,0,0,0.5);
+}
+.bigPicture{
+	position: relative;
+	display : flex;
+	justify-content : center;
+	align-content : center;
+	top : 15%;
+	left : 0;
+}
+.bigPicture img{
+	width:650px;
+}
+/* 댓글 페이징 */
+.page_ul{
+    list-style-type: none;
+    float:right
+}
+.page_ul > li {
+	height : 20px;
+	width : 20px;
+	float : left;
+	list-style : none;
+	color: #fff;
+    font-size: 16px;
+    background-color: #73685d;
+    border-radius: 6px;
+}
+.page_ul > li.active{
+ 	background-color: black;
+	color: white;
+	text-decoration: underline;
+} 
+
+.page_ul-g{
+    list-style-type: none;
+   
+}
+.page_ul-g .page-link {
+	height : 40px;
+	width : 40px;
+	float : left;
+	list-style : none;
+	color: #fff;
+    font-size: 16px;
+    background-color: #73685d;
+    border-radius: 6px;
+}
+.page_ul-g .page-link.active {
+	
+    background-color: black;
+	color: white;
+	text-decoration: underline;
+}
+
